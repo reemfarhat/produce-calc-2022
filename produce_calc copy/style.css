@@ -153,6 +153,24 @@ figcaption {
 }
 
 
+.peapod.active,
+.freshdirect.active,
+.amazon.active {
+    display: block
+}
+
+.cheap{
+    font-weight: bold;
+    font-size: 1.8em;
+    color: rgb(13, 92, 13);
+
+}
+
+.cheap:after{
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
 /**
 * Remove  the  default margin on the H3 (comma means or)
 */
